@@ -1,3 +1,6 @@
+document.addEventListener("touchstart", function(event) {
+  event.preventDefault();
+});
 // This function gets the code from the three editors and returns it as a string.
 function getUserCode() {
   // Get the code from the HTML editor.
